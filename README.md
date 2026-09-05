@@ -494,10 +494,4 @@ Processing a large collection of images demonstrates how GPU acceleration can be
 
 ---
 
-# 👩‍💻 Author
 
-**Preethi A K**
-
-CUDA / GPU Image Processing Project
-
----
