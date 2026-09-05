@@ -167,58 +167,6 @@ This is useful because every 3×3 median-filter operation needs neighboring pixe
 
 ---
 
-# 📂 Project Structure
-
-```text
-CUDA-Median-Filter/
-│
-├── median_filter.cu
-├── README.md
-│
-├── input_images/
-│   ├── image001.jpg
-│   ├── image002.jpg
-│   ├── image003.jpg
-│   └── ...
-│
-└── output_images/
-    ├── denoised_image001.jpg
-    ├── denoised_image002.jpg
-    ├── denoised_image003.jpg
-    └── ...
-```
-
----
-
-# 📊 Dataset
-
-The program accepts a large number of images from the `input_images` directory.
-
-Supported image formats include:
-
-* JPG
-* JPEG
-* PNG
-* BMP
-* TIFF
-* TIF
-
-For the assignment, the directory can contain:
-
-```text
-100+ small images
-```
-
-or
-
-```text
-10+ large images
-```
-
-A dataset containing several hundred images is recommended for demonstrating the advantage of GPU processing.
-
----
-
 # 🛠️ Technologies Used
 
 * C++
@@ -443,30 +391,6 @@ Each thread processes one output pixel.
 
 ---
 
-# 🧠 CUDA Concepts Demonstrated
-
-This project demonstrates:
-
-* CUDA kernels
-* CUDA threads
-* Thread blocks
-* 2D grid configuration
-* `threadIdx.x`
-* `threadIdx.y`
-* `blockIdx.x`
-* `blockIdx.y`
-* Global memory
-* Shared memory
-* Host-to-device memory transfer
-* Device-to-host memory transfer
-* `cudaMalloc`
-* `cudaMemcpy`
-* `cudaFree`
-* `cudaDeviceSynchronize`
-* GPU parallel processing
-* Performance measurement
-
----
 
 # 🔄 Processing Workflow
 
@@ -577,7 +501,3 @@ Processing a large collection of images demonstrates how GPU acceleration can be
 CUDA / GPU Image Processing Project
 
 ---
-
-# 📜 License
-
-This project is intended for academic and educational purposes.
